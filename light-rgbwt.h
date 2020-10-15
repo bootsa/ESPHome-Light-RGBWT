@@ -1,8 +1,8 @@
 #include "esphome.h"
 
-class BPA800_P : public Component, public LightOutput {
+class RGBWT : public Component, public LightOutput {
  public:
-  BPA800_P(FloatOutput *red, FloatOutput *green, FloatOutput *blue, FloatOutput *brightness, FloatOutput *color_temp)
+  RGBWT(FloatOutput *red, FloatOutput *green, FloatOutput *blue, FloatOutput *brightness, FloatOutput *color_temp)
   {
     red_ = red;
     green_ = green;
